@@ -1,0 +1,152 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.projects i {
+    color: #007bff; /* Example: blue color */
+  }
+  .navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 15px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff3f3f;
+    text-decoration: none;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visibility */
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #090808;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffe66d;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6f61; /* Highlight color on hover */
+    cursor: pointer; /* Ensure pointer arrow shows on hover */
+  }
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f7f6f6;
+  }
+  
+ 
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%); /* White icon on dark background */
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff7f50;
+  }
+  
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+
+
+/* Hero Section */
+.home-section {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.skills-section {
+  background-color: #ffe66d;
+  padding: 80px 0;
+}
+
+.projects-section {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+
+.contact-section {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 80px 0;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ffe66d;
+  border: none;
+  color: #ff6b6b;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #ff4757;
+  color: #fff;
+}
+.footer-icons {
+  margin-top: 30px; /* Increase this value if you want more space */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 576px) {
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .skills-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .projects-section h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .home-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .projects-section h5 {
+    font-size: 1.5rem;
+  }
+}
